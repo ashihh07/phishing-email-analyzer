@@ -26,6 +26,8 @@ needs python 3.8+, nothing to install.
 
 ## example output
 
+   ![demo](screenshot.png)
+
 ```
 
 === samples/sample_phish.eml ===
