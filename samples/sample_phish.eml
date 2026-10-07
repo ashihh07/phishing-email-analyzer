@@ -1,0 +1,28 @@
+Received: from mail.sketchy-host.top (unknown [203.0.113.45]) by mx.example.net; Tue, 06 Oct 2026 08:14:02 +0000
+Authentication-Results: mx.example.net; spf=fail smtp.mailfrom=sketchy-host.top; dkim=none; dmarc=fail header.from=securebank.com
+Return-Path: <bounce@sketchy-host.top>
+From: "SecureBank Support" <support@securebank.com>
+Reply-To: <helpdesk@securebank-verify.xyz>
+To: victim@example.org
+Subject: URGENT: Your account will be closed
+Date: Tue, 06 Oct 2026 08:13:55 +0000
+Message-ID: <abc123@sketchy-host.top>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear customer,</p>
+<p>We noticed unusual activity. Action required: verify your account within 24 hours or it will be suspended.</p>
+<p><a href="http://198.51.100.7/login/verify.php">https://www.securebank.com/secure-login</a></p>
+<p>Or use this link: <a href="http://securebank-verify.xyz/confirm">click here</a></p>
+</body></html>
+--BOUNDARY
+Content-Type: application/octet-stream; name="invoice.pdf.exe"
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+Content-Transfer-Encoding: base64
+
+ZHVtbXkgZmlsZSwgbm90IHJlYWwgbWFsd2FyZQ==
+--BOUNDARY--
